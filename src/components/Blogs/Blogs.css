@@ -14,4 +14,5 @@
 }
 .question-container >div>p>span{
     color: red;
+    font-weight: bold;
 }
