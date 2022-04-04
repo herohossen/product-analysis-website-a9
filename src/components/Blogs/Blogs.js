@@ -3,7 +3,9 @@ import React from 'react';
 const Blogs = () => {
     return (
         <div>
-            My blogs
+           <div>
+               <h1>What is Context Api?</h1>
+           </div>
         </div>
     );
 };
