@@ -1,10 +1,10 @@
 # Bookish
-Live web site link [Create React App](https://github.com/facebook/create-react-app).
+Live web site link [https://github.com/facebook/create-react-app)](https://github.com/facebook/create-react-app).
 
-* User Review  Shown
-* Added Bar Chart and Pie Chart in Dashboar
-* Added see more button
-* Added 2 Question and Answer 
+* Added 6 User Review in Review Page
+* Added Bar Chart and Pie Chart in Dashboard Page
+* Added see more button under the review in Home Page
+* Added 2 Question and Answer in Blogs Page
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
