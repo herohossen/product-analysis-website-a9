@@ -1,4 +1,17 @@
-.nav{
 
-background-color:  red;
-}
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 20px;
+      transition: color ease-in-out 300ms;
+      color: red;
+    }
+      
+  .active-link {
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 20px;
+      transition: color ease-in-out 300ms;
+      color: darkgray;
+    }

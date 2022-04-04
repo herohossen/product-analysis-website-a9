@@ -16,6 +16,10 @@ const Home = () => {
                 {users.slice(0,3).map(user =><Users key={user.id} user={user}></Users>)}
 
             </div>
+            <div>
+            <button>See more </button>
+
+            </div>
         </div>
     );
 };
