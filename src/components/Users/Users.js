@@ -1,21 +1,17 @@
-import React,{useState, useEffect} from 'react';
-import Review from '../Review/Review';
+import React from "react";
 
-const Users = () => {
-    const [users,setUsers] = useState([]);
-    useEffect(() => {
+const Users = ({ user }) => {
+  const { name, rating, review, img } = user;
 
-        fetch('review.json')
-        .then(res=> res.json())
-        .then(data=>setUsers(data))
-    }, [])
-
-    return (
-        <div>
-            <h2>Page Users {users.length}</h2>
-            {users.map(user =><Review key={user.id} user={user}></Review>)}
-        </div>
-    );
+  return (
+    <div>
+      <h2>Page Users </h2>
+      <img src={img} alt="" />
+      Name: {name}
+      Rating : {rating}
+      review: {review}
+    </div>
+  );
 };
 
 export default Users;

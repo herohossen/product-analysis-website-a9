@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-const useerReview = () => {
+const useReview = () => {
 
    const [users, setUsers]= useState([]);
 
@@ -13,4 +13,4 @@ return [users, setUsers];
 
 }
 
-export default useerReview;
+export default useReview;
