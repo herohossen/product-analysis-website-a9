@@ -1,5 +1,43 @@
-.Section1-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.section1-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 50px;
+    padding: 0 8%;
+
+}
+
+.intro {
+    margin: 5px, 5px;
+}
+
+.intro>h1 {
+    text-align: left;
+
+}
+
+.intro>p {
+    text-align: left;
+
+}
+
+
+@media only screen and (max-width: 900px) and (min-width: 400px) {
+    .section1-container {
+        grid-template-columns: repeat(1, 1fr);
+        ;
+    }
+
+    .intro img {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .home-review-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-top: 50px;
+        padding: 0 8%;
+    }
 }

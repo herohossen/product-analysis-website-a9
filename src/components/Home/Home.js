@@ -3,18 +3,25 @@ import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import useReview from "../../hooks/useReview";
 import Users from "../Users/Users";
+import FrontPageImage from "../../Images/frontPageImg.jpg";
 
 const Home = () => {
   const [users, setUsers] = useReview();
   const navigate = useNavigate();
   return (
     <div>
-      <h1>My Home Page</h1>
       {/* 1st section */}
-
-      <div className="Section1-container">
-        <div>1</div>
-        <div>2</div>
+      <div className="section1-container">
+        <div className="intro">
+          <h1> Habluder Jonno Programming</h1>
+          <p>
+            The book is written by 'Jhankar Mahbub'. The books is for all the
+            students who want learn programming in a easy and simple way.
+          </p>
+        </div>
+        <div>
+          <img src={FrontPageImage} alt="" />
+        </div>
       </div>
 
       <div>

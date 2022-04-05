@@ -1,44 +1,44 @@
 [
   {
     "id": "1",
-    "name": "Masum",
- "review": "The book is awosome",
+    "name": "Delowar Hossen",
+ "review": "The book is awosome. I like it so much. It makes my life easy",
  "rating": "4.5",
-    "img": "https://images.unsplash.com/photo-1632441730372-d8509de481d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    "img": "https://i.ibb.co/yRhJjrL/Delowar-Hossen.jpg"
   },
   {
     "id": "2",
-    "name": "Masum",
- "review": "The book is awosome",
- "rating": "4.5",
-    "img": "https://images.unsplash.com/photo-1632441730372-d8509de481d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    "name": "Ahsan Gazi",
+ "review": "Wow! Very nice book. I have read it many times",
+ "rating": "3.5",
+    "img": "https://i.ibb.co/bRN4mHG/ahsan.jpg"
   },
   {
     "id": "3",
-    "name": "Masum",
- "review": "The book is awosome",
- "rating": "4.5",
-    "img": "https://images.unsplash.com/photo-1632441730372-d8509de481d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    "name": "Anwar",
+ "review": "Easy learn and understand. I recomend everyone to read this book.",
+ "rating": "4",
+    "img": "https://i.ibb.co/xCzS53j/anwar.jpg"
   },
   {
     "id": "4",
-    "name": "Masum",
+    "name": "Mariya",
  "review": "The book is awosome",
  "rating": "4.5",
-    "img": "https://images.unsplash.com/photo-1632441730372-d8509de481d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    "img":"https://i.ibb.co/d4Lfx2J/user4.jpg"
   },
   {
     "id": "5",
-    "name": "Masum",
+    "name": "Robert",
  "review": "The book is awosome",
  "rating": "4.5",
-    "img": "https://images.unsplash.com/photo-1632441730372-d8509de481d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    "img": "https://i.ibb.co/Zz9s6zv/user3.jpg"
   },
   {
     "id": "6",
-    "name": "Masum",
+    "name": "Synthiya",
  "review": "The book is awosome",
  "rating": "4.5",
-    "img": "https://images.unsplash.com/photo-1632441730372-d8509de481d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    "img": "https://i.ibb.co/C1t5kWw/user2.jpg"
   }
 ]

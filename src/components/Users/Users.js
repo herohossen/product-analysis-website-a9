@@ -6,17 +6,15 @@ const Users = ({ user }) => {
 
   return (
     <div className="cart-container">
-      <h2>Page Users </h2>
-      <div>
-      <img  src={img} alt="" />
+      <div className="">
+        <img src={img} alt="" />
+        <h2>{name}</h2>
+        <h3>Rating : {rating}</h3>
       </div>
-      <div>
-      Name: {name}
-      Rating : {rating}
-      review: {review}
+      <div >
+        <p> {review}
+        </p>
       </div>
-
-
     </div>
   );
 };
