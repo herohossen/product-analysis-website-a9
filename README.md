@@ -1,5 +1,5 @@
-# Bookish
-Live web site link [https://github.com/facebook/create-react-app)](https://github.com/facebook/create-react-app).
+# BookisPagla
+Live web site link [https://bookishpagla.netlify.app/](https://bookishpagla.netlify.app/).
 
 * Added 6 User Review in Review Page
 * Added Bar Chart and Pie Chart in Dashboard Page
