@@ -3,11 +3,11 @@ import useReview from "../../hooks/useReview";
 import Users from "../Users/Users";
 
 const Review = () => {
-const [users, setUsers]=useReview()
+const [users] = useReview();
 
   return (
     <div>
-{users.length}
+
 {users.map(user =><Users key={user.id} user={user}></Users>)}
     </div>
   );

@@ -11,9 +11,8 @@ const Users = ({ user }) => {
         <h2>{name}</h2>
         <h3>Rating : {rating}</h3>
       </div>
-      <div >
-        <p> {review}
-        </p>
+      <div className="cart-review">
+        <p> {review}</p>
       </div>
     </div>
   );

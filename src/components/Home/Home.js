@@ -5,6 +5,7 @@ import useReview from "../../hooks/useReview";
 import Users from "../Users/Users";
 import FrontPageImage from "../../Images/frontPageImg.jpg";
 
+
 const Home = () => {
   const [users, setUsers] = useReview();
   const navigate = useNavigate();
@@ -15,8 +16,12 @@ const Home = () => {
         <div className="intro">
           <h1> Habluder Jonno Programming</h1>
           <p>
-            The book is written by 'Jhankar Mahbub'. The books is for all the
-            students who want learn programming in a easy and simple way.
+            The book is written by '<span>Jhankar Mahbub</span>'. The books is
+            for all the students who want learn programming in a easy and simple
+            way.
+          </p>
+          <p>
+            <button className="btn-live">Live demo</button>
           </p>
         </div>
         <div>
@@ -25,13 +30,16 @@ const Home = () => {
       </div>
 
       <div>
-        <h1>customer review ({users.slice(0, 3).length})</h1>
+        <h1>Customer Reviews ({users.slice(0, 3).length})</h1>
         {users.slice(0, 3).map((user) => (
           <Users key={user.id} user={user}></Users>
         ))}
       </div>
       <div>
-        <button onClick={() => navigate("/review")}>See more... </button>
+        <button className="btn-navReview" onClick={() => navigate("/review")}>
+          <span>See All Reviews... </span>
+          <div className="liquid"></div>
+        </button>
       </div>
     </div>
   );
